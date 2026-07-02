@@ -1,5 +1,5 @@
 # revolutionary-networks
-This is a public dataset of metadata created from documents from the University of Virginia Press's [Rotunda American History Collection](https://www.upress.virginia.edu/rotunda/), covering the period of 1771-1783. This data has been released in association with a grant from the National Endowment for the Humanities, for which we will create a website exploring data visualisations of networks of communication through the revolutionary war. If you use this data for your research and want it included as a link on the website, contact [rotunda-upress@virginia.edu](mailto:rotunda-upress@virginia.edu).
+This is a public dataset of metadata created from documents from the University of Virginia Press's [Rotunda American History Collection](https://www.upress.virginia.edu/rotunda/), covering the period of 1771-1783. This data has been released in association with a grant from the National Endowment for the Humanities, for which we will create a website exploring data visualisations of networks of communication through the revolutionary war. If you use this data for your research and want it included as a link on the project's main website, [revolutionary-networks.org](https://revolutionary-networks.org), contact [rotunda-upress@virginia.edu](mailto:rotunda-upress@virginia.edu).
 
 ## Available Metadata, pulled from 40,691 documents. This data has been created by Rotunda from its internal metadata, and does not include any transcripts from the actual letters. 
 * Document ID: Official identifer for within the Rotunda American History Collection
@@ -10,10 +10,9 @@ This is a public dataset of metadata created from documents from the University 
 * Publication: Source publication from which this metadata was collected. Abbreviation (Key below)
 * Founders Online: Link to full document transcription on Founders Online (where available)
 * Rotunda: Link to document in the Rotunda collection (may require institutional access)
-* authorIDs: Associated ID for person, pulled from Rotunda's [People of The Founding Era prosopography database](https://pfe.upress.virginia.edu). (*Note* In Review)
-* recipientIDs: Associated ID for person, pulled from Rotunda's [People of The Founding Era prosopography database](https://pfe.upress.virginia.edu). (*Note* In Review)
+* authorIDs: Associated ID for person, pulled from Rotunda's [People of The Founding Era prosopography database](https://pfe.upress.virginia.edu). 
+* recipientIDs: Associated ID for person, pulled from Rotunda's [People of The Founding Era prosopography database](https://pfe.upress.virginia.edu).
 * Location: Through several levels of human and machine processing, the location selected for the origin of the document. 
-* Revised Location: Administrative field, indicating any changes to location during editing
 * geonameID: The returned ID for the geoname entry matching to the value in the location field. [https://www.geonames.org/](https://www.geonames.org/)
 * coordinates: Combined GPS coordinates, from the reconciled Geonames.org entry
 * latitude: latitude, from the reconciled Geonames.org entry
@@ -25,9 +24,9 @@ This is a public dataset of metadata created from documents from the University 
 * hierarchy: Full breadcrumb for location, from the reconciled Geonames.org entry
 
 ## Collections Represented, by Proportion of Dataset, having content from Jan 1, 1771 through Dec 31, 1783. Including Publication code, number of documents, and original publisher and copyright holder of the volume containing the source material. 
-* The Papers of George Washington - GEWN - (University of Virginia Press) 15581 documents
+* The Papers of George Washington - GEWN - (University of Virginia Press) 20992 documents
 * The Papers of Benjamin Franklin - BNFN - (Yale University Press) 9518 documents
-* The Adams Family Papers - ADMS - (Massachusetts Historical Society) 4745 documents
+* The Adams Family Papers - ADMS - (Massachusetts Historical Society) 4742 documents
 * The Papers of Thomas Jefferson - TSJN - (Princeton Univeristy Press and Monticello) 2542 documents
 * The Papers of James Madison - JSMN - (University of Virginia Press) 831 documents
 * The Selected Papers of John Jay - JNJY - (The Trustees of Columbia University in the City of New York) 765 documents
